@@ -114,8 +114,12 @@ nav ul li{
 @media screen and (min-width: 550px) {
     .text-content{
         width: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         margin: auto;
-        margin-top: 120px;
+        /* margin-top: 120px; */
     }
     .text-content h1{
         font-size: 40px;
@@ -135,7 +139,7 @@ nav ul li{
 }
 @media screen and (min-width: 900px) {
     .text-content{
-        margin-top: 150px;
+        /* margin-top: 150px; */
     }
     .text-content h1{
         font-size: 50px;
