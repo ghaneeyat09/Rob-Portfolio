@@ -36,7 +36,7 @@ nav ul li{
     font-size: 16px;
 }
 .text-content{
-    width: 90%;
+    width: 85%;
     margin-top: 120px;
 }
 .text-content h1{
@@ -88,11 +88,9 @@ nav ul li{
     color: var(--gold);
     font-size: 40px;
     transform: scaleX(-1);
-    /* margin-left: 10px; */
 }
 .to-skill p{
     color: var(--white);
-    /* margin-left: 18px; */
 
 }
 .socials{
@@ -119,7 +117,6 @@ nav ul li{
         left: 50%;
         transform: translate(-50%, -50%);
         margin: auto;
-        /* margin-top: 120px; */
     }
     .text-content h1{
         font-size: 40px;
@@ -138,9 +135,7 @@ nav ul li{
     }
 }
 @media screen and (min-width: 900px) {
-    .text-content{
-        /* margin-top: 150px; */
-    }
+
     .text-content h1{
         font-size: 50px;
     }
